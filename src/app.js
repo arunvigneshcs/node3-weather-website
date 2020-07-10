@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'Press F1 for help.'
+        message: 'Check your Internet Connection. Enter the Location in the Search Box. Clich Search.'
     })
 })
 
